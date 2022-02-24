@@ -1,0 +1,53 @@
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+ }
+.mainDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:200px;
+    
+    font-size: 25px;
+    margin:10px
+}
+.first{
+    margin:10px;
+}
+.first input{
+    border-radius: 10px;
+    height:30px;
+    background-color:beige;
+}
+.btn{
+    height:30px;
+    border-radius: 10px;
+    width:100px;
+    background-color:black;
+    color:white;
+    border:2px solid white;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+.btmDiv
+{
+    margin-left:30%;
+width:40%;
+background-color: rgb(109, 109, 146);
+height:auto;
+display: flex;
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+.eachDiv{
+    margin:5px;
+    padding:20px;
+    background-color: rgb(238, 146, 161);
+    border-radius: 30px;
+}
